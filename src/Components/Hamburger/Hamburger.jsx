@@ -21,9 +21,9 @@ function Hamburger({setOpen}) {
 
     return (
     <>
-        <div ref={burgerRef} className={"flex flex-col z-50 absolute h-[100%] w-[234px] bg-nerodark shadow-lg px-[35px] pt-[13px] pb-[76px] text-lightgray"}>
-            <IoCloseOutline className="w-8 h-8" onClick={()=>{setOpen(false)}}/>
-            <ul className="flex flex-col gap-4 mt-12">
+        <div ref={burgerRef} className={"flex flex-col z-50 absolute h-[100%] w-[234px] lg:w-[285px] bg-nerodark shadow-lg px-[35px] lg:px-[60px] pt-[13px] lg:pt-[28px] text-lightgray"}>
+            <IoCloseOutline className="w-8 h-8 lg:ml-[-12px]" onClick={()=>{setOpen(false)}}/>
+            <ul className="flex flex-col gap-4 mt-12 lg:mt-8">
                 <li>Hem</li>
                 <li>Min Lista</li>
                 <li>Populärt just nu</li>
