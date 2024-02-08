@@ -16,7 +16,7 @@ export default function HeaderSearch() {
   return (
     <div className="h-10 px-4 rounded-[10px] flex items-center bg-midnightdark border-solid border-gold border gap-2 group">
       <IoSearch className="h-6 w-6 text-lightgray" />
-      <input className="w-[222px] bg-inherit border-none focus-visible:outline-none text-middlegray group-hover:block focus-within:block hidden" ref={inputRef} onChange={(e) => setSearch(e.target.value)} type="text" />
+      <input placeholder="sök" className="w-[222px] bg-inherit border-none focus-visible:outline-none text-middlegray group-hover:block focus-within:block hidden" ref={inputRef} onChange={(e) => setSearch(e.target.value)} type="text" />
     </div>
   )
 }
