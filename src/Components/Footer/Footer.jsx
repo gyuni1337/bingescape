@@ -1,12 +1,61 @@
 import { MdOutlineHome, MdSearch } from "react-icons/md";
+import { FiGithub } from "react-icons/fi";
+import { AiFillQuestionCircle } from "react-icons/ai";
+import Image from "next/image";
 
 export default function Footer() {
     return (
-        <div className="flex justify-between w-[100%] px-5 py-[14px] h-[52px] bg-dark top-[100vh] mt-auto">
+    <>
+        <div className="flex justify-between w-[100%] px-5 py-[14px] h-[52px] bg-dark top-[100vh] mt-auto sm:hidden">
             <MdOutlineHome className="h-6 w-6"/>
             <MdOutlineHome className="h-6 w-6"/>
             <MdOutlineHome className="h-6 w-6"/>
             <MdSearch className="h-6 w-6"/>
         </div>
+        <div className="h-[350px] max-sm:hidden bg-dark mt-auto">
+            <div className="flex justify-center max-mdsm:gap-[3.5vw] gap-16 mt-12">
+                <ul className="flex flex-col gap-1 text-lightgray">
+                    <li className="font-bold text-base text-white">CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                </ul>
+                <ul className="flex flex-col gap-1 text-lightgray">
+                    <li className="font-bold text-base text-white">CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                </ul>
+                <ul className="flex flex-col gap-1 text-lightgray">
+                    <li className="font-bold text-base text-white">CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                </ul>
+                <ul className="flex flex-col gap-1 text-lightgray">
+                    <li className="font-bold text-base text-white">CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                </ul>
+                <ul className="flex flex-col gap-1 text-lightgray">
+                    <li className="font-bold text-base text-white">CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                    <li>CategoryLink</li>
+                </ul>
+            </div>
+            <div className="py-2 mt-4 mx-auto w-[80vw] border-solid border-y border-gold justify-center flex">
+                <AiFillQuestionCircle className="w-16 h-16"/>
+                <AiFillQuestionCircle className="w-16 h-16"/>
+                <AiFillQuestionCircle className="w-16 h-16"/>
+            </div>
+        </div>
+    </>
     )
 }
