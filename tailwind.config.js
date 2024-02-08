@@ -19,6 +19,7 @@ module.exports = {
         gold: "#FFD486",
         dark: "#343434",
         darker: "#2C2C2C",
+        bluegray: "#788395",
         nerodark: "#2A2A2A",
         midnightdark: "#212121",
         darkgold: "#C07F00"
