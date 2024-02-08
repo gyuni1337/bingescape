@@ -1,7 +1,6 @@
 import { MdOutlineHome, MdSearch } from "react-icons/md";
-import { FiGithub } from "react-icons/fi";
+import { MdCopyright } from "react-icons/md";
 import { AiFillQuestionCircle } from "react-icons/ai";
-import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -50,11 +49,15 @@ export default function Footer() {
                     <li>CategoryLink</li>
                 </ul>
             </div>
-            <div className="py-2 mt-4 mx-auto w-[80vw] border-solid border-y border-gold justify-center flex">
-                <AiFillQuestionCircle className="w-16 h-16"/>
-                <AiFillQuestionCircle className="w-16 h-16"/>
-                <AiFillQuestionCircle className="w-16 h-16"/>
+            <div className="py-2 mt-4 mx-auto w-[80vw] border-solid border-y border-gold items-center flex flex-col">
+                <div>Följ oss på sociala medier</div>
+                <div className="flex gap-2">
+                    <AiFillQuestionCircle className="w-16 h-16"/>
+                    <AiFillQuestionCircle className="w-16 h-16"/>
+                    <AiFillQuestionCircle className="w-16 h-16"/>
+                </div>
             </div>
+            <span className="flex items-center gap-2 justify-center mt-3"><MdCopyright /> Copyright streamingtjänst 2024</span>
         </div>
     </>
     )
