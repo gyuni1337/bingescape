@@ -21,7 +21,10 @@ module.exports = {
         nerodark: "#2A2A2A",
         midnightdark: "#212121",
         darkgold: "#C07F00"
-      }
+      },
+      screens: {
+        "mdsm": "830px",
+      },
     },
   },
   plugins: [],
