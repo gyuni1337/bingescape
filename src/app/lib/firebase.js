@@ -1,8 +1,8 @@
-// 'use server';
 
 import {initializeApp} from 'firebase/app';
 import {getFirestore} from 'firebase/firestore';
 import {getAnalytics} from 'firebase/analytics';
+import {getAuth} from 'firebase/auth';
 
 const firebaseConfig = {
   
@@ -26,7 +26,7 @@ const firebaseConfig = {
 //     process?.env?.FIREBASE_CONFIG ?? '{}',
 // );
 
-let analytics; let firestore;
+let analytics; let firestore; let auth;
 if (firebaseConfig?.projectId) {
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
@@ -37,7 +37,8 @@ if (firebaseConfig?.projectId) {
 
   // Access Firebase services using shorthand notation
   firestore = getFirestore();
+  auth = getAuth();
   // console.log(firestore);
 }
 
-export {analytics, firestore};
+export {analytics, firestore, auth};

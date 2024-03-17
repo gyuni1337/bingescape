@@ -21,7 +21,6 @@ export default function Movie({params}) {
   return (
       <>
         <h1>The params - {params.id}</h1>
-        <h2>The fetched - {info}</h2>
       </>
   )
 }
