@@ -12,7 +12,7 @@ export default function Home() {
                     <Header />
                     <Search />
                     <GenreFeed />
-                    <Cards />
+                    <Cards title={"Main movie idk"} vadfuckduvill={"random bror"} serie={"Serie - 2019"}/>
                     <Footer />
                 </div>
             </DataProvider>

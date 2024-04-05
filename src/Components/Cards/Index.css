@@ -1,9 +1,5 @@
 .carousel{
-    height: 280px;
-    width: 100%;
-    position: relative;
-    margin-left: 5%;
-    overflow: hidden;
+
 }
 .carousel::-webkit-scrollbar {
     display: none !important;
@@ -33,14 +29,7 @@
     right: -50px;
 }
 .carouselbox{
-    height: 270px;
-    width: auto;
-    overflow: scroll;
-    text-align: center;
-    white-space: nowrap;
-    display: flex;
-    padding-bottom: 10px !important;
-    flex-direction: row;
+
 
 }
 .carouselbox img{
@@ -122,24 +111,22 @@
 }
 
 .Individ{
-    border: 2px solid transparent;
-    transition: border-color 0.2s ease;
-    border-radius: 12px;
 }
 
-.Individ:hover{
+.indibox:hover{
     border-color:  #FDD7A9 ;
     }
-.Individ:active {
+.indibox:active {
     border-color: darkorange;
-    transition-duration: 0.1s;
+    transition-duration: 0.2s;
 }
 
 
 .indibox{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease;
+    border-radius: 12px;
 
 }
 .lentext{
