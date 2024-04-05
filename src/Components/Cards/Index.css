@@ -1,0 +1,183 @@
+.carousel{
+    height: 280px;
+    width: 100%;
+    position: relative;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.carousel::-webkit-scrollbar {
+    display: none !important;
+}
+.carouselbox::-webkit-scrollbar {
+    display: none !important;
+}
+.carousel .switchLeft,
+.carousel .switchRight{
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    font-size: 25px;
+    text-align: center;
+    top: 0;
+    z-index: 3  ;
+
+}
+.carousel .switchLeft{
+    position: absolute;
+    left: -50px;
+}
+.carousel .switchRight{
+    position: absolute;
+    right: -50px;
+}
+.carouselbox{
+    height: 270px;
+    width: auto;
+    overflow: scroll;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    padding-bottom: 10px !important;
+    flex-direction: row;
+
+}
+.carouselbox img{
+    min-width: 147px;
+    max-width: 147px;
+    height: 200px;
+    background-size: cover;
+    background-color: grey;
+    margin: 5px 10px ;
+    cursor: pointer;
+
+    .carouselbox::-webkit-scrollbar {
+        display: none;
+    }
+}
+.carouselbox img:hover{
+    .carousel{
+        height: 250px;
+        width: 100%;
+        position: relative;
+        margin-left: 5%;
+        overflow: hidden;
+    }
+    .carousel::-webkit-scrollbar {
+        display: none !important;
+    }
+    .carouselbox::-webkit-scrollbar {
+        display: none !important;
+    }
+    .carousel .switchLeft,
+    .carousel .switchRight{
+        color: white;
+        font-weight: bold;
+        height: 100%;
+        width: 45px;
+        line-height: 250px;
+        font-size: 25px;
+        text-align: center;
+        top: 0;
+        z-index: 3  ;
+
+    }
+    .carousel .switchLeft{
+        position: absolute;
+        left: -50px;
+    }
+    .carousel .switchRight{
+        position: absolute;
+        right: -50px;
+    }
+    .carouselbox {
+        height: 250px;
+        width: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        text-align: center;
+        white-space: nowrap;
+        display: flex;
+        padding-bottom: 10px !important;
+        border: 2px solid transparent;
+        transition: border-color 0.3s ease;
+    }
+    .carouselbox img{
+        min-width: 147px;
+        max-width: 147px;
+        height: 200px;
+        background-size: cover;
+        background-color: grey;
+        margin: 5px 10px ;
+        cursor: pointer;
+
+        .carouselbox::-webkit-scrollbar {
+            display: none;
+        }
+    }
+    .carouselbox img:hover{
+        border-color: lightgoldenrodyellow;
+    }
+}
+
+.Individ{
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease;
+    border-radius: 12px;
+}
+
+.Individ:hover{
+    border-color:  #FDD7A9 ;
+    }
+.Individ:active {
+    border-color: darkorange;
+    transition-duration: 0.1s;
+}
+
+
+.indibox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.lentext{
+    font-size: 12px;
+justify-content: flex-start;
+    display: flex;
+    color: white;
+    margin-left: 10%;
+    width: 110px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lentext3{
+    font-size: 9px;
+    justify-content: flex-start;
+    display: flex;
+    color: white;
+padding-top: 7px;
+    margin-left: 10%;
+    width: 110px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lentext2{
+    font-size: 16px;
+    justify-content: flex-start !important;
+    display: flex;
+    color: white;
+    margin-left: 10%;
+    font-weight: bold;
+    width: 110px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.horiz{
+    display: flex;
+    flex-direction: row;
+}
