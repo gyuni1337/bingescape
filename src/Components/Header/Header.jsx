@@ -31,7 +31,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="h-[56px] bg-dark px-5 py-[3px] flex flex-col justify-center content-center max-sm:hidden">
+      <div className="h-[56px] bg-dark px-20 py-[3px] flex flex-col justify-center content-center max-sm:hidden">
         <div className="flex justify-between w-[100%]">
           <div className="flex gap-10">
             <MdMenu onClick={() => { setNavOpen(!navOpen); }} className="h-[100%] w-6 cursor-pointer text-gold" />

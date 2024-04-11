@@ -2,14 +2,12 @@
 
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
-import Search from "../Components/Inputs/Search/Search";
-import GenreFeed from "../Components/Genre/GenreFeed/GenreFeed";
 import { DataProvider } from '../DataContext/DataContext';
 import { firestore, auth } from "../app/lib/firebase";
 import { useEffect } from "react";
 import React from 'react';
-import VideoPlayer from '@/Components/VideoDownload/Video'; // Adjust the path as necessary
-import Cards from "@/Components/Cards/Cards";
+import Card from "../Components/Card/Card";
+import Hero from "../Components/Hero/Hero";
 export default function Home() {
 
   useEffect(() => {
@@ -24,9 +22,8 @@ export default function Home() {
       <DataProvider>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <Search />
-          <VideoPlayer src="path/to/your/video.mp4" /> 
-          <GenreFeed />
+          <Hero src="https://www.youtube.com/watch?v=z1-wzTsoxQ8"/>
+
           <Footer />
         </div>
       </DataProvider>

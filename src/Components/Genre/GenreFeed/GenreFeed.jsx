@@ -2,7 +2,7 @@ import GenreTag from "../GenreTag/GenreTag"
 
 export default function GenreFeed() {
     return(
-        <div className="w-[603px] my-2 mx-auto flex gap-1 overflow-clip">
+        <div className="w-max my-2 mx-auto flex gap-1 overflow-clip">
             <GenreTag genre="Action"/>
             <GenreTag genre="Adventure"/>
             <GenreTag genre="Comedy"/>
