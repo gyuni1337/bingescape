@@ -1,9 +1,9 @@
 // 'use client';
 
-import { useEffect, useState } from "react"
+// import { useEffect, useState } from "react"
 
 export async function generateStaticParams() {
-    id: 'experimental'
+    return ({ id: 'experimental' })
 }
  
 
@@ -12,7 +12,7 @@ export default function Movie({params}) {
 
     // let [ info, setInfo ] = useState('');
 
-    useEffect(() => {  
+    // useEffect(() => {  
 
         // const simpleFetch = async () => {
         //     const res = await fetch('/api/getMovie/blabla');
@@ -22,7 +22,7 @@ export default function Movie({params}) {
         // simpleFetch();
                 
 
-    }, []);
+    // }, []);
 
   return (
       <>

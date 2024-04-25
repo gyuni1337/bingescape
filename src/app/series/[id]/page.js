@@ -1,7 +1,7 @@
 // 'use client'
 
 export async function generateStaticParams() {
-    id: 'experimental'
+    return ({ id: 'experimental' })
 }
 
 export default function Movie({params}) {
