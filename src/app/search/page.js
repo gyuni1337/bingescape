@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import React from 'react';
 import VideoPlayer from '../Components/VideoDownload/Video'; 
 import Card from "../Components/Card/Card";
-import BigCard from "../Components/Card/bigCard/BigCard";
+import BigCard from "../Components/Card/BigCard/BigCard";
 export default function Home() {
 
   useEffect(() => {
