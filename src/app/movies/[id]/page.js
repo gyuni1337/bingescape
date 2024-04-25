@@ -2,6 +2,12 @@
 
 import { useEffect, useState } from "react"
 
+export async function generateStaticParams() {
+    id: 'experimental'
+}
+ 
+
+
 export default function Movie({params}) {
 
     let [ info, setInfo ] = useState('');
