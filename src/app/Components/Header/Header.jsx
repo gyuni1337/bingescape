@@ -7,7 +7,6 @@ import Hamburger from "../Hamburger/Hamburger";
 
 import { useContext } from "react";
 import Image from "next/image";
-import pfp from "../../../public/images/ProfilePic.png";
 import { DataContext } from "../../DataContext/DataContext";
 
 export default function Header() {
@@ -24,9 +23,10 @@ export default function Header() {
             <MdOutlineCast className="h-[100%] w-6" />
             <Image
               className="rounded-full"
-              src={pfp}
+              src={'/images/ProfilePic.png'}
               alt="Profile Picture"
               width={38}
+              height={38}
             />
           </div>
         </div>
@@ -46,9 +46,10 @@ export default function Header() {
             <FiBell className="h-[100%] w-6 cursor-pointer" />
             <Image
               className="rounded-full cursor-pointer"
-              src={pfp}
+              src={'/images/ProfilePic.png'}
               alt="Profile Picture"
               width={38}
+              height={38}
             />
           </div>
         </div>

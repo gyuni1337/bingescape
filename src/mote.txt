@@ -1,0 +1,7 @@
+ta upp / möte / 04-19-2024
+- login / register page ( system ready, lack of design däremot )
+- login system olika inställningar såsom Google Sign In / Password reset email osv.
+- search page 
+- vad vi jobbar på just nu ( landing page, movies, serier page osv )
+- live webbsida / firebase ( bara för att kunna se progress )
+- lite information om laget ( prestanda, kunskap )
