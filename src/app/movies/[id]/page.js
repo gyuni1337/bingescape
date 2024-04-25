@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import { useEffect, useState } from "react"
 
@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 
 export default function Movie({params}) {
 
-    let [ info, setInfo ] = useState('');
+    // let [ info, setInfo ] = useState('');
 
     useEffect(() => {  
 
