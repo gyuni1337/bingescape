@@ -3,7 +3,7 @@
 // import { useEffect, useState } from "react"
 
 export async function generateStaticParams() {
-    return ({ id: 'experimental' })
+    return [{id: 'experimental'}] 
 }
  
 
