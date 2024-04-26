@@ -28,10 +28,10 @@ export default function Home() {
           <Search />
           <GenreFeed />
           <div className="flex justify-center gap-10 mt-10">
-            <BigCard bgImage={'/images/tree.png'} text="Julmys"/>
-            <BigCard bgImage={'/images/popcorn.png'} text="Hemmakväll"/>
-            <BigCard bgImage={'/images/clown.jpg'} text="Scary Movie Night"/>
-            <BigCard bgImage={'/images/family.jpg'} text="Familjefilmer"/>
+            <BigCard bgImage={'./images/tree.png'} text="Julmys"/>
+            <BigCard bgImage={'./images/popcorn.png'} text="Hemmakväll"/>
+            <BigCard bgImage={'./images/clown.jpg'} text="Scary Movie Night"/>
+            <BigCard bgImage={'./images/family.jpg'} text="Familjefilmer"/>
 
           </div>
 

@@ -7,12 +7,12 @@ import { firestore, auth } from "../app/lib/firebase";
 import { useEffect } from "react";
 import React from 'react';
 import Card from "./Components/Card/Card";
-import Hero from "./Components/Hero/Hero";
+import Billboard from "./Components/Billboard/Billboard";
 export default function Home() {
 
   useEffect(() => {
 
-      console.log(localStorage.getItem('accessToken'));
+      if (localStorage.getItem('accessToken') !== null) { console.log(localStorage.getItem('accessToken')); };
 
   }, []);
 
@@ -21,7 +21,7 @@ export default function Home() {
       <DataProvider>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <Hero src="https://www.youtube.com/watch?v=z1-wzTsoxQ8"/> 
+          <Billboard title={"Miracle in Cell No. 7"} genres={"Drama, thriller"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed maximus odio, congue facilisis urna. Proin semper ac nulla vel vestibulum. Vestibulum et hendrerit dolor, eget finibus odio. Nulla egestas eleifend libero, nec tempus nibh ornare et. Quisque rhoncus orci quis sapien eleifend viverra. Sed porta nibh non ex venenatis, a consectetur eros scelerisque. "} /> 
 
           <Footer />
         </div>
